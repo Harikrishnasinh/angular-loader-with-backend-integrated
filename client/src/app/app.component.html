@@ -1,0 +1,9 @@
+<div>
+  {{loadingValue}}
+</div>
+<div>
+  <input type="range" [value]="loadingValue" disabled>
+</div>
+<button (click)="stopDataFetching()">
+  stop
+</button>
